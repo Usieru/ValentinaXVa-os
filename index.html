@@ -16,7 +16,7 @@
     color: #333;
     background: url('https://e0.pxfuel.com/wallpapers/792/588/desktop-wallpaper-has01253-chesapeake-by-brewster-has01253-hide-and-seek-eloise-light-pink-damask-in-light-pink.jpg'), linear-gradient(to bottom, #B0A8B9, #D3D3D3);
     background-blend-mode: overlay;
-    background-attachment: fixed;
+    /* Elimina esta línea: background-attachment: fixed; */
     background-size: cover;
     background-repeat: repeat;
     overflow-x: hidden;
@@ -67,46 +67,4 @@
     font-size: 1.2em;
     border: 2px solid #6B8E8F;
     box-shadow: 0 0 10px rgba(107, 142, 143, 0.5);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-family: 'Dancing Script', cursive;
-  }
-  .open-button:hover {
-    transform: scale(1.05);
-    background: #6A4A7B;
-    box-shadow: 0 0 15px rgba(107, 142, 143, 0.8);
-  }
-
-  /* INVITACIÓN */
-  .invitation {
-    display: none;
-  }
-
-  /* Sección con fondo fijo para parallax */
-  .parallax-section {
-    height: 650px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border-radius: 20px;
-    max-width: 1100px;
-    width: 95%;
-    margin: 40px auto;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
-    color: white;
-    text-shadow: 0 0 20px rgba(0,0,0,0.9);
-    user-select: none;
-    border: 2px solid #FFD700;
-  }
-
-  /* Texto sobre la primera imagen */
-  .overlay-text {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-  }
-  .overlay-text .title {
+    cursor: pointer
